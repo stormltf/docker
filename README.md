@@ -136,7 +136,7 @@ RUN curl -sSL https://github.com/shykes/helloflask/archive/master.tar.gz | tar -
 RUN cd helloflask-master && pip install -r requirements.txt
 ```
 
-Note that Docker doesn't care *how* dependencies are built - as long
+Note that Docker doesn't care *how* dependencies are built - as long 
 as they can be built by running a Unix command in a container.
 
 
